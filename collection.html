@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youva</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1>Youva</h1>
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="index.html">Home</a></p>
+            <p class="navbar-link"><a href="collection.html">Collections</a></p>
+            <p class="navbar-link"><a href="contact.html">Contact</a></p>
+        </div>
+        <div class="navbar-menu-toggle">
+            <i class="fa-solid fa-bars" onclick="shownavbar()"></i>
+        </div>
+    </nav>
+    <!--side Navbar-->
+<div class="side-navbar">
+    <p style="text-align: right;" onclick="closenavbar()">
+        <i class="fa-solid fa-xmark"></i>
+    </p>
+    <div class="side-navbar-links">
+        <p class="side-navbar-link"><a href="index.html">Home</a></p>
+        <p class="side-navbar-link"><a href="collection.html">Collections</a></p>
+        <p class="side-navbar-link"><a href="contact.html">Contact</a></p>
+    </div>
+</div>
+
+<!--product-->
+<div class="product-section">
+    <form class="product-search">
+        <input type="text" id="search" placeholder="Search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+    </form>
+    <div class="products" id="products">
+        <div class="products-box">
+        <img src="image13.jpg" alt="">
+        <p>White shirt</p>
+        </div>
+        <div class="products-box">
+            <img src="image8.jpg" alt="">
+            <p>black shirt</p>
+            </div>
+        
+                <div class="products-box">
+                <img src="image9.jpg" alt="">
+                <p>Jeans pant</p>
+                </div>
+                <div class="products-box">
+                    <img src="image10.jpg" alt="">
+                    <p>t-shirt</p>
+                    </div>
+                <div class="products-box">
+                <img src="image11.jpg" alt="">
+                <p>track-pant</p>
+                </div>
+                <div class="products-box">
+                    <img src="image12.jpg" alt="">
+                    <p>belts</p>
+                    </div>
+        
+            
+
+    </div>
+</div>
+
+<!--footer-->
+<div class="footer">
+    <div class="footer-container">
+    <div class="footer-box-1">
+    <h2 class="headingText">YOUVA</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et iusto laudantium velit, earum delectus eveniet optio quidem at dicta dignissimos!</p>
+    <div class="footer-icon-container">
+        <i class="fa-brands fa-instagram" style="color: whitesmoke;"></i>
+        <i class="fa-brands fa-twitter" style="color: whitesmoke;"></i>
+        <i class="fa-brands fa-facebook" style="color: whitesmoke;"></i>
+    </div>
+    </div>
+    </div>
+    <p>@2024.YOUVA.com</p>
+</div>
+
+<script src="collection.js"></script>
+</body>
+
+</html>
